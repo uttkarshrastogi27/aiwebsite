@@ -1,8 +1,19 @@
+.gpt3__navbar.active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
 .gpt3__navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
+    width: 100%;
+    background-color: black;
 }
 
 .gpt3__navbar-links{
@@ -40,10 +51,6 @@ margin: 0rem 1rem;
 cursor: pointer;
 }
 
-
-.gpt3__navbar{
-    position: fixed;
-}
 .gpt3__navbar-sign button,.gpt3__navbar-menu_container button{
     padding: 0.5rem 2rem;
     color: #fff;

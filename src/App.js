@@ -1,3 +1,4 @@
+
 import "./App.css";
 import { Brand, Navbar, Cta } from "./components";
 import {
@@ -10,9 +11,9 @@ import {
 } from "./containers";
 
 function App() {
- 
+  
   return (
-    <div className="App">
+    <div className="App" id="app">
       <div className="gradient__bg">
         <Navbar />
         <Header />
